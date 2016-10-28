@@ -15,7 +15,18 @@ namespace ConsoleApplication1
                     Console.WriteLine("Bonjour ma gang de crottée");
                 }
             Console.WriteLine("allo");
-            Console.WriteLine("@echo.Log In you");
+            string deezNuts = Console.ReadLine();
+            Console.WriteLine(deezNuts);
+            Console.ReadKey();
+            Console.WriteLine("Veuillez appuyer pour continuer");
+        }
+
+        void AfficherQuelqueChoseDeLaid()
+        {
+            for (int i = 0; i < 1000; i++)
+                {
+                    Console.WriteLine("Vous êtes très laid x{0}", i);
+                }
         }
     }
 }
