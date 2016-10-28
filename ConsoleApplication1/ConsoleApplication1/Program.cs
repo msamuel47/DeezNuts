@@ -14,6 +14,7 @@ namespace ConsoleApplication1
                 {
                     Console.WriteLine("Bonjour ma gang de crottée");
                 }
+            Console.WriteLine("allo");
         }
     }
 }
