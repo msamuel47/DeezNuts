@@ -10,7 +10,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bonjour ma gang de crottée");
+            for (int i = 0; i <= 200; i++)
+                {
+                    Console.WriteLine("Bonjour ma gang de crottée");
+                }
         }
     }
 }
